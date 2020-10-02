@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+#nav {
+    padding: 0;
+}
+#nav .navbar-brand {
+    padding-top: 0;
+}
+#nav img {
+    padding-left: 140px;
+}
+#nav-sign-btn{
+    border-radius: 10px;
+    width: 165px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0063dd;
+    margin-left: 40px;
+    margin-right: 140px;
+}
+#nav li{
+    padding-left: 20px;
+    font-size: 16px;
+}
+#nav li a{
+    color: black;
+}
+#nav .active{
+    color: blue;
+    font-weight: bold;
+}
+@media(max-width:1080px){
+    #nav img{
+        padding-left: 0;
+    }
+    #nav-sign-btn{
+        margin-right: 0;
+    }
+    header {
+        background-image: none !important;
+    }
+}
+@media(max-width:460px){
+    #nav-sign-btn{
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,10 @@
+@import url('device.css');
+@import url('elements.css');
+@import url('nav-bar.css');
+
+header{
+    background-image: url('../../img/header/Background.png');
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+}
