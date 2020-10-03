@@ -1,11 +1,8 @@
 #device img{
-    margin-top: 60px;    
+    margin-top: 60px;   
 }
-@media(max-width:580px){
+@media(max-width:1900px){
     #device{
         visibility: hidden;
-    }
-    body header{
-        height: 700px;
     }
 }

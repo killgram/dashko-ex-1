@@ -1,0 +1,9 @@
+#scroll-down img{
+    position: relative;
+    top: -35px;
+}
+@media(max-width:575px){
+    #scroll-down{
+        visibility: hidden;
+    }
+}
