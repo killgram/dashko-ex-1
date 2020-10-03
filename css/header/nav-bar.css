@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
 #nav {
     padding: 0;
+    margin:0;
+    width: 100%;
 }
 #nav .navbar-brand {
     padding-top: 0;
@@ -10,7 +10,7 @@
     padding-left: 140px;
 }
 #nav-sign-btn{
-    border-radius: 10px;
+    border-radius: 25px;
     width: 165px;
     height: 50px;
     font-size: 16px;
@@ -30,6 +30,9 @@
     color: blue;
     font-weight: bold;
 }
+#nav li a:hover{
+    text-shadow: 0px 0px 0.5px black;
+}
 @media(max-width:1080px){
     #nav img{
         padding-left: 0;
@@ -37,12 +40,25 @@
     #nav-sign-btn{
         margin-right: 0;
     }
-    header {
+    /* header {
         background-image: none !important;
-    }
+    } */
 }
 @media(max-width:460px){
     #nav-sign-btn{
-        margin-left: 20px;
+        margin: auto;
+        margin-top: 15px;
+    }
+    #nav img{
+        margin-left: 25px;
+    }
+    .navbar-toggler{
+        margin-right: 35px;
+    }
+
+}
+@media(max-width:580px){
+    #nav-content{
+        text-align: center;
     }
 }
