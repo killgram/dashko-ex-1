@@ -17,7 +17,7 @@
     font-weight: bold;
     background-color: #0063dd;
     margin-left: 40px;
-    margin-right: 140px;
+    margin-right: 130px;
 }
 #nav li{
     padding-left: 20px;
@@ -40,9 +40,6 @@
     #nav-sign-btn{
         margin-right: 0;
     }
-    /* header {
-        background-image: none !important;
-    } */
 }
 @media(max-width:460px){
     #nav-sign-btn{
