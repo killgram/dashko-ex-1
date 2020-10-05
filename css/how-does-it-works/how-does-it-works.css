@@ -1,0 +1,72 @@
+#how-does-it-works{
+    background-color: #f5fcfd;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 646px;
+}
+#how-does-it-works #how-does-title{
+    padding-top: 130px;
+}
+#how-does-it-works #how-title{
+    height: 300px;
+    background-image: url('../../img/how-does-it-works/title.png');
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+#how-does-it-works #how-does-card img{
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+    z-index: 2;
+}
+#how-does-it-works #how-does-card{
+    height: 346px;
+}
+#how-does-it-works #how-does-card .card{
+    border: none;
+    background-color: #f5fcfd;
+}
+#how-does-it-works #how-does-card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+#how-does-it-works #how-card-line-1{
+    border: 1px solid #0f7bff; 
+    position: relative;
+    top: -65px;
+    left: 150px;   
+}
+#how-does-it-works #how-card-line-2{
+    border: 1px solid #0f7bff; 
+    position: relative;
+    top: -65px;   
+}
+#how-does-it-works #how-card-line-3{
+    border: 1px solid #0f7bff; 
+    position: relative;
+    top: -65px;
+    left: -150px;   
+}
+#how-does-it-works #how-does-card .col-md-3{
+    padding: 0;
+}
+#how-does-it-works #how-row-1{
+    margin: 0;
+}
+#how-does-it-works #how-does-card .card-title{
+    margin-bottom: 25px;
+}
+@media(max-width:975px){
+    #how-does-it-works{
+        height: 300px;
+    }
+    #how-does-it-works #how-row-1{
+        display: none;
+    }
+    #how-does-it-works #how-title{
+        background: none;
+    }
+    #how-does-it-works #how-does-title{
+        padding-top: 30px;
+    }
+}

@@ -2,6 +2,7 @@
 @import url('header/header.css');
 @import url('features/features.css');
 @import url('about/about.css');
+@import url('how-does-it-works/how-does-it-works.css');
 
 html, body {
     width: 100%;
