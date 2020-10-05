@@ -3,8 +3,13 @@
 @import url('features/features.css');
 @import url('about/about.css');
 @import url('how-does-it-works/how-does-it-works.css');
+@import url('pricing/pricing.css');
 
 html, body {
     width: 100%;
     height:100%;
+    color: #929292;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #333333;
 }
