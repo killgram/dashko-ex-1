@@ -1,0 +1,39 @@
+@import url('carousel.css');
+
+#testimonials{
+    width: 100%;
+    height: 608px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f5fcfd;
+}
+#testimonials #test-title{
+    margin: 0;
+}
+#testimonials #image-content{
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    width: 752px;
+    height: 608px;
+}
+#testimonials #text-content{
+}
+@media(max-width:1485px){
+    #testimonials #image-content{
+        display: none;
+    }
+    #testimonials #text-content{
+        justify-content: center;
+        margin: 150px auto;
+    }
+}
+@media(max-width:768px){
+    #testimonials #text-content{
+        justify-content: center;
+    }
+}
+@media(max-width:359px){
+    #testimonials .card{
+        width: auto;
+    }
+}
