@@ -6,6 +6,7 @@
 @import url('pricing/pricing.css');
 @import url('testimonials/testimonials.css');
 @import url('latest-news/latest-news.css');
+@import url('free-trial/free-trial.css');
 
 html, body {
     width: 100%;
