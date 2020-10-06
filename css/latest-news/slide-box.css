@@ -1,0 +1,68 @@
+#latest-news #main-box .card img{
+    width: 555px;
+    height: 285px;
+}
+#latest-news #main-box .card {
+    border: none;
+}
+#latest-news #main-box .card img{
+    border-radius: 5px;
+}
+#latest-news #main-box .card h5{
+    color: #0f7bff;
+    text-shadow: 1px 1px 1px rgba(15, 123, 255, 0.3);
+    font-size: 24px;
+    margin: 20px auto;
+}
+#latest-news #main-box .card h5:hover{
+    text-shadow: 0px 0px 0.5px black;
+}
+#latest-news #main-box .card a:hover{
+    text-decoration: none;
+}
+#latest-news #main-box .card{
+    width:555px;
+}
+#latest-news #other-block img{
+    width: 165px;
+    height: 120px;
+}
+#latest-news #other-block h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#latest-news #other-block a:hover{
+    text-decoration: none;
+}
+#latest-news #other-block h2:hover{
+    color: #0f7bff;
+    text-shadow: 1px 1px 1px rgba(15, 123, 255, 0.3);
+}
+#latest-news #other-block .justify-content-start{
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+@media(max-width:1199px){
+    #latest-news #other-block{
+        margin: 20px 400px;
+    }
+    #latest-news .card{
+        margin: auto;
+    }
+    #latest-news #other-block img{
+        display: none;
+    }
+    #latest-news #other-block h2{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:768px){
+    #latest-news #main-box .card img{
+        height: auto;
+        width: auto;
+    }
+    #latest-news #main-box .card{
+        width: auto;
+    }
+}

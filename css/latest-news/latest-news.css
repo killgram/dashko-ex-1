@@ -1,0 +1,8 @@
+@import url('title.css');
+@import url('slide-box.css');
+
+#latest-news{
+    width: 100%;
+    height: 860px;
+    font-family: 'Quicksand', sans-serif;
+}
