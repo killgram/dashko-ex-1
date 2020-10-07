@@ -1,0 +1,33 @@
+footer #footer{
+    border-top: 1px solid white;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+footer #footer #fb{
+    background-image: url('../../img/widget/social-media/fb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer #footer #tw{
+    background-image: url('../../img/widget/social-media/twitter.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer #footer #yt{
+    background-image: url('../../img/widget/social-media/yt.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer #footer #social .nav-item a{
+    height: 30px;
+}
+footer #footer #links a{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer #footer #links a.active{
+    color: white;
+}
+footer #footer #title p{
+    margin: auto;
+}

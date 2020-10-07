@@ -1,0 +1,64 @@
+footer #logo h1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+footer #subscribe input{
+    background-color: #0f7bff;
+    border: 2px solid white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 392px;
+    height: 60px;
+    color: white;
+}
+footer #subscribe button{
+    width: 165px;
+    height: 60px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #0f7bff;
+    background-color: white;
+    border: 2px solid white;
+    font-weight: bold;
+}
+footer #subscribe input::-webkit-input-placeholder {
+    color: white;
+}
+footer #subscribe input:-moz-placeholder {
+    color: white;
+}
+footer #subscribe input::-moz-placeholder {
+    color: white;
+}
+footer #subscribe input:-ms-input-placeholder {
+    color: white;
+}
+footer #main-logo{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+@media(max-width:620px){
+    footer #subscribe input{
+        width: 300px;
+    }
+}
+@media(max-width:524px){
+    footer #subscribe input{
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin: 10px auto;
+    }
+    footer #subscribe button{
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+}
