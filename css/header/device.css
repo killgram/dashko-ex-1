@@ -1,7 +1,7 @@
 #device img{
     margin-top: 60px;   
 }
-@media(max-width:1900px){
+@media(max-width:1023px){
     #device{
         visibility: hidden;
     }

@@ -70,3 +70,14 @@
         padding-top: 30px;
     }
 }
+@media(min-width:2550px){
+    #how-does-it-works #how-card-line-1{
+        left: 250px;
+    }
+    #how-does-it-works #how-card-line-3{
+        left: -250px;
+    }
+    #how-does-it-works #how-card-line-2{
+        width: 250px;
+    }
+}
