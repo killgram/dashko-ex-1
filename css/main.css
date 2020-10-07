@@ -8,6 +8,7 @@
 @import url('latest-news/latest-news.css');
 @import url('free-trial/free-trial.css');
 @import url('widget/widget.css');
+@import url('scroll.css');
 
 html, body {
     width: 100%;

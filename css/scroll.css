@@ -1,0 +1,19 @@
+.scrollup{
+    width: 45px;
+    height: 45px;
+    background-image: url('../img/Scroll.png');
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 30px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+}
+.scrollup:hover{
+    box-shadow: 0 0 5px rgba(146, 146, 146, 0.5);
+}
+@media(max-width:1900px){
+    .scrollup{
+        display: none !important;
+    }
+}
