@@ -49,6 +49,19 @@ footer #main-logo{
 }
 @media(max-width:524px){
     footer #subscribe input{
+        width: auto;
+    }
+    footer #subscribe button{
+        width: auto;
+        font-size: 12px;
+    }
+    footer #logo{
+        margin: 40px auto;
+    }
+}
+
+/* @media(max-width:524px){
+    footer #subscribe input{
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
         border-top-right-radius: 30px;
@@ -61,4 +74,4 @@ footer #main-logo{
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
     }
-}
+} */

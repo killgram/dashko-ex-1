@@ -3,6 +3,9 @@
 }
 @media(max-width:1023px){
     #device{
-        visibility: hidden;
+        display: none;
+    }
+    header #elements #btn-block{
+        margin-bottom: 100px;
     }
 }

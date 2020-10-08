@@ -41,9 +41,10 @@
                             <a class="nav-link" href="#">PAGES</a>
                         </li>
                     </ul>
-                </div>
-                <!-- Sign up -->
+                                    <!-- Sign up -->
                 <button type="button" class="btn btn-primary" id="nav-sign-btn">SIGN UP</button>
+                </div>
+
             </div>
             </nav>
             <div class="elements" id="elements">
@@ -58,7 +59,7 @@
                             blanditiis ipsum est sequi odit nobis iusto nemo laborum fuga 
                             quasi voluptatum nam tempore.</p>
                         </div>
-                    <div class="row text-center justify-content-center col-sm-12">
+                    <div class="row text-center justify-content-center col-sm-12" id="btn-block">
                         <button type="button" class="btn btn-primary">Download</button>
                         <button type="button" class="btn btn-outline-primary">Free Trial</button>
                     </div>
@@ -117,8 +118,8 @@
         </div>
     </section>
     <section id="about">
-        <div id="easy-mess" class="container-fluid padding col-10">
-            <div class="row padding justify-content-center align-items-center" id="about-row-1">
+        <div id="easy-mess" class="container-fluid col-10">
+            <div class="row justify-content-center align-items-center" id="about-row-1">
                 <div class="col-lg-5 col-md-5 col-sm-3">
                     <img src="img/about/01/App-Screens.png" class="img-fluid">
                 </div>
@@ -137,7 +138,7 @@
         </div>
         <div id="keep-in-touch" class="container-fluid padding col-10">
             <div class="row padding justify-content-center align-items-center" id="about-row-2">
-                <div class="col-lg-4 col-md-7 col-sm-3">
+                <div class="col-lg-4 col-md-7 col-sm-3 order-sm-first order-last">
                     <h2>Keep In Touch</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -148,7 +149,7 @@
                     </p>
                     <a href="#">Read More &rarr;</a>
                 </div>
-                <div class="col-lg-5 col-md-5 col-sm-3">
+                <div class="col-lg-5 col-md-5 col-sm-3 order-sm-last order-first">
                     <img src="img/about/02/App-Screens.png" class="img-fluid">
                 </div>
             </div>
@@ -163,7 +164,7 @@
                 </div>
             </div>
             <div class="row text-center justify-content-center">
-                <div class="col-lg-5 col-md-7 col-sm-3">
+                <div class="col-lg-5 col-md-7 col-sm-6">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     Amet exercitationem dolorem laboriosam neque fugit, modi eius 
                     blanditiis ipsum est sequi odit nobis iusto nemo laborum fuga 
@@ -191,7 +192,6 @@
                         <div class="col-md-3">
                             <div class="card text-center">
                                 <img src='img/how-does-it-works/02/Icon.png' class="card-img-top">
-                                <div id="how-card-line-2"></div>
                                 <div class="card-body">
                                     <h4 class="card-title">Confirm Email</h4>
                                     <p>
@@ -204,7 +204,7 @@
                         <div class="col-md-3">
                             <div class="card text-center">
                                 <img src='img/how-does-it-works/03/Icon.png' class="card-img-top">
-                                <div id="how-card-line-3"></div>
+                                <div id="how-card-line-2"></div>
                                 <div class="card-body">
                                     <h4 class="card-title">See Results</h4>
                                     <p>
@@ -328,9 +328,9 @@
                     </div>
                     <div class="carous-indi">
                         <ol class="carousel-indicators">
-                            <li data-target="#slides" data-slide-to="0" class="active"></li>
-                            <li data-target="#slides" data-slide-to="1"></li>
-                            <li data-target="#slides" data-slide-to="2"></li>
+                            <button class="btn active" data-target="#slides" data-slide-to="0"></button>
+                            <button class="btn" data-target="#slides" data-slide-to="1"></button>
+                            <button class="btn" data-target="#slides" data-slide-to="2"></button>
                           </ol>
                     </div>
                   </div>
@@ -360,7 +360,7 @@
         <div class="container-fluid">
             <div class="row justify-content-center" id="row-1">
                 <!-- main-box -->
-                <div class="col-md-9 col-xl-6 col-lg-6 col-sm-12" id="main-box">
+                <div class="col-md-9 col-xl-6 col-lg-9 col-sm-10" id="main-box">
                     <div class="card ml-auto">
                         <img class="card-img-top" src='img/latest-news/main-post/Image.png'>
                         <div class="card-body">
@@ -374,11 +374,11 @@
                       </div>
                 </div>
             <!-- other blocks -->
-            <div class="col-md-9 col-xl-6 col-lg-6 col-sm-12 col-auto" id="other-block">
+            <div class="col-md-9 col-xl-6 col-lg-8 col-sm-10 col-auto" id="other-block">
                 <!-- 01 -->
                 <div class="row justify-content-start">
-                    <img src='img/latest-news/alt-01/Image.png' >
-                    <div class="row col-xl-9  col-auto">
+                    <img src='img/latest-news/alt-01/Image.png'>
+                    <div class="row col-xl-6 col-lg-8 col-md-9 col-sm-9 col-auto">
                         <a href="#"><h2 class="col-md-12">The master bedroom suite is phenomenally spacious</h2></a>
                         <p class="col-md-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Id facere ullam delectus laborum</p>
@@ -387,7 +387,7 @@
                 <!-- 02 -->
                 <div class="row justify-content-start">
                     <img src='img/latest-news/alt-02/Image.png'>
-                    <div class="row col-xl-9">
+                    <div class="row col-xl-6 col-lg-9 col-md-9 col-sm-9">
                         <a href="#"><h2 class="col-md-12">The master bedroom suite is phenomenally spacious</h2></a>
                         <p class="col-md-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Id facere ullam delectus laborum</p>
@@ -396,7 +396,7 @@
                 <!-- 03 -->
                 <div class="row justify-content-start">
                     <img src='img/latest-news/alt-03/Image.png'>
-                    <div class="row col-xl-9">
+                    <div class="row col-xl-6 col-lg-9 col-md-9 col-sm-9">
                         <a href="#"><h2 class="col-md-12">The master bedroom suite is phenomenally spacious</h2></a>
                         <p class="col-md-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Id facere ullam delectus laborum</p>

@@ -26,17 +26,21 @@
     width: 17px;
     height: 13px;
 }
-#testimonials .carousel-indicators li{
+#testimonials .carousel-indicators button{
     background-color: #d4d4d4;
     width: 20px;
     height: 10px;
     border-radius: 5px;
+    margin-right: 10px;
+    padding: 0;
+    box-shadow: none;
 }
-#testimonials .carousel-indicators li.active{
+#testimonials .carousel-indicators button.active{
     background-color: #0f7bff;
     width: 30px;
     height: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: none;
 }
 #testimonials .carousel-indicators{
     width: 215px;
@@ -45,5 +49,5 @@
 #testimonials .carous-indi{
     position: relative;
     top: 60px;
-    left: -65px;
+    left: -50px;
 }

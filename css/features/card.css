@@ -32,6 +32,9 @@
         width: 260px;
         height: 330px;
     }
+    #features #card{
+        padding-top: 30px;
+    }
 }
 @media(max-width:765px){
     #features #card-2{

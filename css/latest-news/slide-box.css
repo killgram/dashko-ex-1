@@ -50,9 +50,6 @@
     #latest-news .card{
         margin: auto;
     }
-    #latest-news #other-block img{
-        display: none;
-    }
     #latest-news #other-block h2{
         margin-bottom: 10px;
     }
@@ -64,5 +61,17 @@
     }
     #latest-news #main-box .card{
         width: auto;
+    }
+}
+@media(max-width:668px){
+    #latest-news #other-block img{
+        margin: auto;
+    }
+    #latest-news #other-block .justify-content-start{
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    #latest-news #other-block .justify-content-start .row{
+        margin: 20px auto;
     }
 }

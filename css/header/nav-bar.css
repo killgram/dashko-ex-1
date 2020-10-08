@@ -41,7 +41,7 @@
         padding-left: 0;
     }
     #nav-sign-btn{
-        margin-right: 0;
+        margin: auto;
     }
 }
 @media(max-width:460px){
@@ -60,5 +60,8 @@
 @media(max-width:580px){
     #nav-content{
         text-align: center;
+    }
+    header #nav-content li{
+        padding: 0;
     }
 }

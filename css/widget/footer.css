@@ -31,3 +31,11 @@ footer #footer #links a.active{
 footer #footer #title p{
     margin: auto;
 }
+footer #footer #title{
+    text-align: center;
+}
+@media(max-width:457px){
+    footer #footer #links{
+        margin: 20px auto;
+    }
+}

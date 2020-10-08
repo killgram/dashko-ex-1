@@ -8,6 +8,8 @@
     right: 100px;
     display: none;
     text-indent: -9999px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+
 }
 .scrollup:hover{
     box-shadow: 0 0 5px rgba(146, 146, 146, 0.5);

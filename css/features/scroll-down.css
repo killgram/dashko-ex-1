@@ -2,8 +2,6 @@
     position: relative;
     top: -35px;
 }
-@media(max-width:575px){
-    #scroll-down{
-        visibility: hidden;
-    }
+@media(max-width:1022px){
+    #scroll-down img{}
 }
